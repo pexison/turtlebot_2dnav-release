@@ -1,0 +1,12 @@
+Source: ros-hydro-turtlebot-2dnav
+Section: misc
+Priority: extra
+Maintainer: John <pexison@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-turtlebot-2dnav
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, 
+Description: The turtlebot_2dnav package
